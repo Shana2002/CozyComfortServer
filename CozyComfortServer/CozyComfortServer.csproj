@@ -181,12 +181,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BlanketsController.cs" />
     <Compile Include="Controllers\DistributorController.cs" />
+    <Compile Include="Controllers\DistributorOrdersController.cs" />
     <Compile Include="Controllers\ManufactureInventoryController.cs" />
     <Compile Include="Controllers\ManufactureSellOrdersController.cs" />
     <Compile Include="Controllers\MaterialsDALController.cs" />
     <Compile Include="Data\BlanketsDAL.cs" />
     <Compile Include="Data\DataAccess.cs" />
     <Compile Include="Data\DistributorDAL.cs" />
+    <Compile Include="Data\DistributorOrderDAL.cs" />
     <Compile Include="Data\ManufactureInventoryDAL.cs" />
     <Compile Include="Data\ManufactureSellOrderDAL.cs" />
     <Compile Include="Data\ManufacturingDAL.cs" />
@@ -196,12 +198,15 @@
     </Compile>
     <Compile Include="Models\Blanket.cs" />
     <Compile Include="Models\Distributor.cs" />
-    <Compile Include="Models\ManufactureInventory.cs" />
+    <Compile Include="Models\DistributorInventoryEntry.cs" />
+    <Compile Include="Models\DistributorOrder.cs" />
+    <Compile Include="Models\InventoryEntry.cs" />
     <Compile Include="Models\Manufacturer.cs" />
     <Compile Include="Models\ManufactureSellOrder.cs" />
     <Compile Include="Models\Material.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Seller.cs" />
+    <Compile Include="Models\SellerOrder.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

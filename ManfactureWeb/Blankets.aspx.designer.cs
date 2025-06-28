@@ -13,6 +13,15 @@ namespace ManfactureWeb {
     public partial class Blankets {
         
         /// <summary>
+        /// btnOpenAddModal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnOpenAddModal;
+        
+        /// <summary>
         /// gvBlankets control.
         /// </summary>
         /// <remarks>
@@ -20,6 +29,24 @@ namespace ManfactureWeb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvBlankets;
+        
+        /// <summary>
+        /// blanketModal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl blanketModal;
+        
+        /// <summary>
+        /// hfBlanketId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfBlanketId;
         
         /// <summary>
         /// txtBlanketName control.
@@ -31,39 +58,48 @@ namespace ManfactureWeb {
         protected global::System.Web.UI.WebControls.TextBox txtBlanketName;
         
         /// <summary>
-        /// txtMaterialId control.
+        /// txtBlanketDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaterialId;
+        protected global::System.Web.UI.WebControls.TextBox txtBlanketDescription;
         
         /// <summary>
-        /// txtCapacity control.
+        /// txtBlanketQuantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCapacity;
+        protected global::System.Web.UI.WebControls.TextBox txtBlanketQuantity;
         
         /// <summary>
-        /// txtPrice control.
+        /// txtBlanketPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrice;
+        protected global::System.Web.UI.WebControls.TextBox txtBlanketPrice;
         
         /// <summary>
-        /// btnAddBlanket control.
+        /// btnSaveBlanket control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddBlanket;
+        protected global::System.Web.UI.WebControls.Button btnSaveBlanket;
+        
+        /// <summary>
+        /// btnCancelModal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCancelModal;
     }
 }
