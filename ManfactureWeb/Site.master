@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ManfactureWeb.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Manufacture System</title>
+    <link href="Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="layout">
+            <nav class="sidebar">
+                <h2>Manufacture</h2>
+                <ul>
+                    <li><a href="Dashboard.aspx">Dashboard</a></li>
+                    <li><a href="Metrial.aspx">Materials</a></li>
+                    <li><a href="Blankets.aspx">Blankets</a></li>
+                    <li><a href="Stock.aspx">Stock</a></li>
+                    <li><a href="Distributor.aspx">Distributors</a></li>
+                    <li><a href="Login.aspx">Logout</a></li>
+                </ul>
+            </nav>
+
+            <div class="main-content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
