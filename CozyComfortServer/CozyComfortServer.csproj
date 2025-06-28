@@ -180,9 +180,15 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BlanketsController.cs" />
+    <Compile Include="Controllers\DistributorController.cs" />
+    <Compile Include="Controllers\ManufactureInventoryController.cs" />
+    <Compile Include="Controllers\ManufactureSellOrdersController.cs" />
     <Compile Include="Controllers\MaterialsDALController.cs" />
     <Compile Include="Data\BlanketsDAL.cs" />
     <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Data\DistributorDAL.cs" />
+    <Compile Include="Data\ManufactureInventoryDAL.cs" />
+    <Compile Include="Data\ManufactureSellOrderDAL.cs" />
     <Compile Include="Data\ManufacturingDAL.cs" />
     <Compile Include="Data\MaterialsDAL.cs" />
     <Compile Include="Global.asax.cs">
@@ -190,7 +196,9 @@
     </Compile>
     <Compile Include="Models\Blanket.cs" />
     <Compile Include="Models\Distributor.cs" />
+    <Compile Include="Models\ManufactureInventory.cs" />
     <Compile Include="Models\Manufacturer.cs" />
+    <Compile Include="Models\ManufactureSellOrder.cs" />
     <Compile Include="Models\Material.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Seller.cs" />
